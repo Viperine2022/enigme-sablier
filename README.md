@@ -37,3 +37,16 @@
 - Le troisième et dernier niveau nécessite de manipuler 3 sabliers, plus gros que les précédents : 15, 10 et 6 minutes respectivement. Il s'agit ici de **mesurer 17 minutes**.
 
 ![niveau-3](./img/niveau-3.png)
+
+
+
+
+
+## Lancer la résolution des énigmes
+
+- Se placer dans un des niveaux `./niveau-*`
+- Lancer la commande `sudo tlc sablier.tla`
+
+- Le solver **TLA+** donne les actions à effectuer pour mesurer le temps attendu.
+
+
