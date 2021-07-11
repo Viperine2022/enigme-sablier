@@ -4,7 +4,7 @@
 
 
 
-<img src="./Phantom_Hourglass.png" alt="Phantom_Hourglass" style="zoom: 100%;" />
+<img src="./Phantom_Hourglass.png" />
 
 
 
