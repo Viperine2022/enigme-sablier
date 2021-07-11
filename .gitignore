@@ -1,0 +1,5 @@
+# pas de fichiers latex
+*.tex
+
+# pas le tuto SSH
+MULTIPLE_SSH_KEY.md
