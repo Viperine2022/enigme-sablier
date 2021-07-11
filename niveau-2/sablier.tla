@@ -20,7 +20,7 @@ ASSUME NbSabliers \in Nat /\ NbSabliers > 0
 
 VARIABLES
   sableHaut,    \* la quantité de sable restante des sabliers
-  sableBas,    \* la quantité de sable écoulée des sabliers
+  sableBas,     \* la quantité de sable écoulée des sabliers
   temps         \* le temps mesuré
 
 EnsembleSabliers == 0..NbSabliers-1
@@ -71,11 +71,6 @@ retourner(i) ==
     /\ sableHaut' = [ sableHaut EXCEPT ![i] = sableBas[i] ]
     /\ sableBas' = [ sableBas EXCEPT ![i] = sableHaut[i] ]
     /\ UNCHANGED <<temps>>
-
-(*
-    /\ sableHaut' = [ sableHaut EXCEPT  ![i] = 0 ]
-    /\ sableHaut' = [ sableHaut EXCEPT  ![inv(i)] = soustraire_sable(i, sableHaut[i])]
-*)
 
 Next == 
     \E i \in EnsembleSabliers :

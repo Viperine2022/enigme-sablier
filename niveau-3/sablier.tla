@@ -23,7 +23,7 @@ ASSUME NbSabliers \in Nat /\ NbSabliers > 0
 
 VARIABLES
   sableHaut,    \* la quantité de sable restante des sabliers
-  sableBas,    \* la quantité de sable écoulée des sabliers
+  sableBas,     \* la quantité de sable écoulée des sabliers
   temps         \* le temps mesuré
 
 EnsembleSabliers == 0..NbSabliers-1
@@ -43,7 +43,6 @@ Solution ==
   [] \neg(temps = 17)
 
 ----------------------------------------------------------------
-
 
 inv(i) == i%3
 

@@ -3,3 +3,6 @@
 
 # pas le tuto SSH
 MULTIPLE_SSH_KEY.md
+
+# pas les fichiers 'state' générés
+*/state/**
