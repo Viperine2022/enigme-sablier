@@ -4,7 +4,7 @@
 
 
 
-<img src="/home/benoit/TLA/enigme-sablier/Phantom_Hourglass.png" alt="Phantom_Hourglass" style="zoom: 25%;" />
+<img src="./Phantom_Hourglass.png" alt="Phantom_Hourglass" style="zoom: 15%;" />
 
 
 
